@@ -9,6 +9,7 @@
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	background-color: #333;
 }
 .slide__bg {
 	position: absolute;
@@ -42,4 +43,7 @@ svg:not(:root) {
 }
 *:focus {
 	outline: none;
+}
+header a.logo img.logo-dark {
+	max-height: 100px;
 }
