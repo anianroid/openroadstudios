@@ -11,6 +11,19 @@
 	position: relative;
 	background-color: #333;
 }
+.slider-home.slick-slider .slick-list,
+.slider-home.slick-slider .slick-track {
+	height: 640px;
+}
+
+.slider-home .slick-slide {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: #333;
+}
 .slide__bg {
 	position: absolute;
 	top: 0;
@@ -39,7 +52,7 @@ svg:not(:root) {
 	width: 100%;
 }
 .slide__overlay-path {
-	fill: red;
+	fill: #000;
 }
 *:focus {
 	outline: none;
@@ -52,4 +65,49 @@ header a.logo img.logo-dark {
 	font-size: 16px;
 	line-height: 1.6;
 }
-.smiley-image {height: 35px;margin: 0 4px;}
+.smiley-image {
+	height: 35px;
+	margin: 0 4px;
+}
+.slider-studio-1 {
+	margin-top: 10%;
+}
+header nav.navbar.white-link .navbar-nav > li.active > a.black,
+nav.navbar.bootsnav.white-link ul.nav > li.active > a.black,
+header nav.navbar.bootsnav ul.nav.white-link > li.active > a.black,
+header.header-appear
+	nav.header-dark-transparent
+	.navbar-nav
+	> li.active
+	> a.black,
+header.header-appear nav.header-dark .navbar-nav > li.active > a.black,
+header.sticky nav.header-dark .navbar-nav > li.active > a.black,
+header.sticky nav.header-dark-transparent .navbar-nav > li.active > a.black,
+header.sticky
+	nav.navbar.bootsnav.header-dark-transparent.white-link
+	.navbar-nav
+	> li.active
+	> a.black {
+	color: #000;
+}
+header nav.navbar.white-link .navbar-nav > li > a.black,
+nav.navbar.bootsnav.white-link ul.nav > li > a.black,
+header nav.navbar.white-link .header-social-icon a.black,
+nav.navbar.bootsnav.white-link .header-social-icon a.black,
+header nav.navbar.white-link .header-searchbar a.black,
+nav.navbar.bootsnav.white-link .header-searchbar a.black,
+header nav.navbar.bootsnav ul.nav.white-link > li > a.black,
+nav.navbar.white-link .heder-menu-button a.black {
+	color: #6b6b6b;
+}
+
+header nav.navbar.white-link .navbar-nav > li > a.black:hover,
+nav.navbar.bootsnav.white-link ul.nav > li > a.black:hover,
+header nav.navbar.white-link .header-social-icon a.black:hover,
+nav.navbar.bootsnav.white-link .header-social-icon a.black:hover,
+header nav.navbar.white-link .header-searchbar a.black:hover,
+nav.navbar.bootsnav.white-link .header-searchbar a.black:hover,
+header nav.navbar.bootsnav ul.nav.white-link > li > a.black:hover,
+nav.navbar.white-link .heder-menu-button a.black:hover {
+	color: #ccc;
+}
