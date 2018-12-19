@@ -3178,6 +3178,16 @@ $(window).load(function() {
         arrows: true,
         focusOnSelect: true
     });
+    $(".slider-home").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: ".slider-for",
+        dots: false,
+        arrows: true,
+        focusOnSelect: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+    });
 });
 /* ===================================
  END Page Load

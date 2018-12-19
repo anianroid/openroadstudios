@@ -47,3 +47,9 @@ svg:not(:root) {
 header a.logo img.logo-dark {
 	max-height: 100px;
 }
+.about-text {
+	color: #fafafa;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.smiley-image {height: 35px;margin: 0 4px;}
