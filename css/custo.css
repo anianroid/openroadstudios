@@ -88,7 +88,7 @@ header.sticky
 	.navbar-nav
 	> li.active
 	> a.black {
-	color: #000;
+	color: #a7a7a7;
 }
 header nav.navbar.white-link .navbar-nav > li > a.black,
 nav.navbar.bootsnav.white-link ul.nav > li > a.black,
@@ -110,4 +110,18 @@ nav.navbar.bootsnav.white-link .header-searchbar a.black:hover,
 header nav.navbar.bootsnav ul.nav.white-link > li > a.black:hover,
 nav.navbar.white-link .heder-menu-button a.black:hover {
 	color: #ccc;
+}
+.low-pad {
+	padding: 40px 0;
+	margin-top: 8%;
+	background: transparent;
+}
+
+@media (max-width: 768px) {
+	header .logo .logo-dark.default, header .logo .logo-light.default {
+		max-height: 64px;
+	}
+	.navbar-default.white-link.no-bg .navbar-toggle .icon-bar, header.sticky .navbar-default.header-dark .navbar-toggle .icon-bar, header.sticky .navbar-default.header-dark-transparent .navbar-toggle .icon-bar {
+		background: #696969;
+	}
 }
