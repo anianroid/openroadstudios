@@ -125,3 +125,11 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 		background: #696969;
 	}
 }
+
+.brand-logo-image {
+	height: 72px;
+	width: auto;
+}
+.brand-logo-image.pmc {
+	width: 56%;
+}
