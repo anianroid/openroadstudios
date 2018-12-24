@@ -1,6 +1,6 @@
 .slider-home.slick-slider .slick-list,
 .slider-home.slick-slider .slick-track {
-	height: 640px;
+	height: 720px;
 }
 
 .slider-nav {
@@ -10,6 +10,7 @@
 	height: 480px !important;
 }
 .slider-home .slick-slide {
+	background-position: center;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -45,7 +46,7 @@ svg:not(:root) {
 	width: 100%;
 }
 .slide__overlay-path {
-	fill: #000;
+	fill: #00000075;
 }
 *:focus {
 	outline: none;
