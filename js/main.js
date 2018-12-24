@@ -3166,7 +3166,9 @@ $(window).load(function() {
     $(".slider-for").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        dots: true,
+        adaptiveHeight: true,
+        arrows: true,
         fade: true,
         asNavFor: ".slider-nav"
     });
@@ -3175,6 +3177,7 @@ $(window).load(function() {
         slidesToScroll: 1,
         asNavFor: ".slider-for",
         dots: true,
+        adaptiveHeight: true,
         arrows: true,
         focusOnSelect: true
     });

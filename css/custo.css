@@ -1,21 +1,14 @@
-.slider-nav.slick-slider .slick-list,
-.slider-nav.slick-slider .slick-track {
-	height: 550px;
-}
-
-.slider-nav .slick-slide {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	background-color: #333;
-}
 .slider-home.slick-slider .slick-list,
 .slider-home.slick-slider .slick-track {
 	height: 640px;
 }
 
+.slider-nav {
+	height: 480px !important;
+}
+.slider-for {
+	height: 480px !important;
+}
 .slider-home .slick-slide {
 	display: flex;
 	flex-flow: row wrap;
@@ -118,10 +111,16 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 
 @media (max-width: 768px) {
-	header .logo .logo-dark.default, header .logo .logo-light.default {
+	header .logo .logo-dark.default,
+	header .logo .logo-light.default {
 		max-height: 64px;
 	}
-	.navbar-default.white-link.no-bg .navbar-toggle .icon-bar, header.sticky .navbar-default.header-dark .navbar-toggle .icon-bar, header.sticky .navbar-default.header-dark-transparent .navbar-toggle .icon-bar {
+	.navbar-default.white-link.no-bg .navbar-toggle .icon-bar,
+	header.sticky .navbar-default.header-dark .navbar-toggle .icon-bar,
+	header.sticky
+		.navbar-default.header-dark-transparent
+		.navbar-toggle
+		.icon-bar {
 		background: #696969;
 	}
 }
