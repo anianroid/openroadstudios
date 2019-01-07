@@ -48,7 +48,7 @@ svg:not(:root) {
 	width: 100%;
 }
 .slide__overlay-path {
-	fill: #00000075;
+	fill: #f9f9f9;
 }
 *:focus {
 	outline: none;
@@ -142,4 +142,7 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 #about {
 	margin-top: 10%;
+}
+.slide__overlay {
+	opacity: 0.5;
 }

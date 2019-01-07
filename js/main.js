@@ -3188,7 +3188,7 @@ $(window).load(function() {
         arrows: true,
         focusOnSelect: true,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 200000
     });
 });
 /* ===================================
