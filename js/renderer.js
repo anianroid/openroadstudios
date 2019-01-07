@@ -63,7 +63,7 @@
 			} else if (brand === "royer") {
 				classString = "royer";
 			}
-			html += `<li class="margin-ten-bottom sm-margin-six-bottom xs-margin-10px-bottom">
+			html += `<li class="margin-three-bottom sm-margin-six-bottom xs-margin-10px-bottom">
 				<a href="${partner.link}" target="_blank">
 					<img class="brand-logo-image ${classString}" src="${partner.imageUrl}">
 				</a>

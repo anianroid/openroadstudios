@@ -3711,7 +3711,7 @@ aside .latest-post li figure {width: 75px;}
 .hover-title-box .separator { height: 1px; content: ""; position: absolute; left:-10px; top: 30px;}
 
 /* home - creative small business */
-.gridblock-main{padding: 110px 90px;}
+.gridblock-main{padding: 32px 8px;}
 .gridblock-list li {width: 33.33%; float: left; padding: 0; text-align:center }
 .gridblock-list> * { vertical-align: top; display: inline-block; content: ""; }
 .gridblock-list>:nth-child(3n) { margin-right: 0; }

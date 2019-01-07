@@ -127,9 +127,14 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 
 .brand-logo-image {
-	height: 72px;
+	height: 40px;
 	width: auto;
 }
 .brand-logo-image.pmc {
-	width: 56%;
+	width: 30%;
+}
+.service-spotlight-heading {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
 }
