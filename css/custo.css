@@ -10,8 +10,10 @@
 	height: 480px !important;
 }
 .slider-home .slick-slide {
-	background-position: center;
+	background-position: initial !important;
 	display: flex;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
@@ -137,4 +139,7 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "Montserrat", sans-serif;
+}
+#about {
+	margin-top: 10%;
 }
