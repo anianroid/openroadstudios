@@ -189,3 +189,17 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 .slick-prev {
 	left: 0;
 }
+. .social-icon-style-1 a.instagram,
+.social-icon-style-2 a.instagram,
+.social-icon-style-3 a.instagram,
+.social-icon-style-4 a.instagram span,
+.social-icon-style-10 a.instagram span {
+	background-color: #cd486b;
+}
+.social-icon-style-1 a.soundcloud,
+.social-icon-style-2 a.soundcloud,
+.social-icon-style-3 a.soundcloud,
+.social-icon-style-4 a.soundcloud span,
+.social-icon-style-10 a.soundcloud span {
+	background-color: #ff7700;
+}
