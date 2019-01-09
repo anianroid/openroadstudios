@@ -81,8 +81,9 @@ header a.logo img.logo-dark {
 }
 .about-text {
 	color: #fafafa;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 1.6;
+	font-family: "Signika Negative", sans-serif;
 }
 .smiley-image {
 	height: 35px;
