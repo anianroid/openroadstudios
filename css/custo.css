@@ -31,7 +31,7 @@ h5.alt-font {
 	height: 480px !important;
 }
 .slider-home .slick-slide {
-	background-position: initial !important;
+	background-position: center !important;
 	display: flex;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
@@ -69,7 +69,7 @@ svg:not(:root) {
 	width: 100%;
 }
 .slide__overlay-path {
-	fill: #f9f9f9;
+	fill: #ffffff;
 }
 *:focus {
 	outline: none;
@@ -165,4 +165,7 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 .slide__overlay {
 	opacity: 0.5;
+}
+.studio-page-slider {
+	margin-top: 120px;
 }
