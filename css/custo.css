@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative");
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+body,
+.alt-font {
+	font-family: "Signika Negative", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h1.alt-font,
+h2.alt-font,
+h3.alt-font,
+h4.alt-font,
+h5.alt-font {
+	font-family: "Barlow", sans-serif;
+}
+
 .slider-home.slick-slider .slick-list,
 .slider-home.slick-slider .slick-track {
 	height: 720px;
@@ -141,7 +162,6 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 	font-family: "Montserrat", sans-serif;
 }
 #about {
-	margin-top: 10%;
 }
 .slide__overlay {
 	opacity: 0.5;
