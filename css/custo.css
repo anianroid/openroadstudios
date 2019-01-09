@@ -18,7 +18,9 @@ h4.alt-font,
 h5.alt-font {
 	font-family: "Barlow", sans-serif;
 }
-
+.slick-slider {
+	margin-bottom: 0;
+}
 .slider-home.slick-slider .slick-list,
 .slider-home.slick-slider .slick-track {
 	height: 720px;
