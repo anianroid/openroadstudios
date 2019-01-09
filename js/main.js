@@ -3168,7 +3168,7 @@ $(window).load(function() {
         slidesToScroll: 1,
         dots: true,
         adaptiveHeight: true,
-        arrows: true,
+        arrows: false,
         fade: true,
         asNavFor: ".slider-nav"
     });
