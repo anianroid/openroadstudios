@@ -2919,6 +2919,9 @@
 
     /* parallax */
     .parallax {background-position: center;}
+    .studio-page-slider {
+        margin-top: 16%; 
+    }
 
     .portfolio-filter-tab-1 li {margin: 10px 20px;}
     .portfolio-filter-tab-2 li a {padding: 7px 18px;}
@@ -3078,9 +3081,22 @@
 }
 
 @media (max-width: 767px) {
+    .slide__overlay {
+        min-height: unset;
+    }
+    
+    .slider-home.slick-slider .slick-list, .slider-home.slick-slider .slick-track {
+        height: 400px;
+    }
+    
+    .slide__overlay-path {
+        fill: #ffffff;
+        opacity: 1;
+    }
 
     body { font-size: 12px; line-height: 20px}
-
+    
+    
     h1, h2, h3, h4, h5, h6 {margin:0 0 17px; padding:0; letter-spacing: 0; font-weight: 400;}
     h1 {font-size:37px; line-height: 42px;}
     h2 {font-size:30px; line-height:36px}
@@ -4028,7 +4044,7 @@
     .xs-padding-15px-tb {padding-top:15px !important; padding-bottom:15px !important;}
     .xs-padding-20px-tb {padding-top:20px !important; padding-bottom:20px !important;}
     .xs-padding-25px-tb {padding-top:25px !important; padding-bottom:25px !important;}
-    .xs-padding-30px-tb {padding-top:30px !important; padding-bottom:30px !important;}
+    .xs-padding-30px-tb {padding-top:30px !important;padding-bottom:30px !important;}
     .xs-padding-35px-tb {padding-top:35px !important; padding-bottom:35px !important;}
     .xs-padding-40px-tb {padding-top:40px !important; padding-bottom:40px !important;}
     .xs-padding-45px-tb {padding-top:45px !important; padding-bottom:45px !important;}

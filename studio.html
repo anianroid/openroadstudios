@@ -448,12 +448,14 @@
 
 
         <script type="text/javascript">
-            $(".slide__content").mouseover(function() {
-                $(".slide__overlay").css("opacity", "1");
-            });
-            $(".slide__content").mouseleave(function() {
-                $(".slide__overlay").css("opacity", "0.8");
-            })
+            if($(window).width() > 800) {
+                $(".slide__content").mouseover(function() {
+                    $(".slide__overlay").css("opacity", "1");
+                });
+                $(".slide__content").mouseleave(function() {
+                    $(".slide__overlay").css("opacity", "0.8");
+                })
+            }
         </script>
     </body>
 </html>
