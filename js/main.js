@@ -3185,7 +3185,7 @@ $(window).load(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
-        arrows: true,
+        arrows: false,
         focusOnSelect: true,
         autoplay: true,
         autoplaySpeed: 200000
