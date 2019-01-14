@@ -3178,7 +3178,7 @@ $(window).load(function() {
         asNavFor: ".slider-for",
         dots: true,
         adaptiveHeight: true,
-        arrows: true,
+        arrows: false,
         focusOnSelect: true
     });
     $(".slider-home").slick({

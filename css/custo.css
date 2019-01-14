@@ -27,10 +27,12 @@ h5.alt-font {
 }
 
 .slider-nav {
-	height: 480px !important;
+	display: block;
+	height: 100%;
+	min-height: 100%;
 }
 .slider-for {
-	height: 480px !important;
+	/* height: 480px !important; */
 }
 .slider-home .slick-slide {
 	background-position: center !important;
@@ -137,7 +139,9 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 	margin-top: 8%;
 	background: transparent;
 }
-
+.slick-dots {
+		display: none;
+	}
 @media (max-width: 768px) {
 	header .logo .logo-dark.default,
 	header .logo .logo-light.default {
@@ -150,6 +154,12 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 		.navbar-toggle
 		.icon-bar {
 		background: #696969;
+	}
+	.slider-nav {
+		overflow: scroll;
+	}
+	.slick-dots {
+		display: block;
 	}
 }
 

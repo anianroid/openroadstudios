@@ -2920,7 +2920,7 @@
     /* parallax */
     .parallax {background-position: center;}
     .studio-page-slider {
-        margin-top: 16%; 
+        margin-top: 20%;
     }
 
     .portfolio-filter-tab-1 li {margin: 10px 20px;}
@@ -4301,8 +4301,8 @@
     .xs-height-200px {height: 200px !important}
     .xs-height-250px {height: 250px !important}
     .xs-height-300px {height: 300px !important}
-    .xs-height-350px {height: 350px !important}
-    .xs-height-400px {height: 400px !important}
+    .xs-height-350px {height: 250px !important;}
+    .xs-height-400px {height: 400px !important;}
     .xs-height-450px {height: 450px !important}
     .xs-height-500px {height: 500px !important}
     .xs-height-550px {height: 550px !important}
