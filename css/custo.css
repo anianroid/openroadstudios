@@ -140,8 +140,8 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 	background: transparent;
 }
 .slick-dots {
-		display: none;
-	}
+	display: none;
+}
 @media (max-width: 768px) {
 	header .logo .logo-dark.default,
 	header .logo .logo-light.default {
@@ -217,4 +217,46 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 .change-color {
 	transition: 0.4s all;
+}
+.gallery-container {
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	grid-auto-rows: 184px;
+	grid-auto-flow: dense;
+}
+
+.gallery-container > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4em;
+	border: 1px solid #f2f2f2;
+	background: #f2f2f2;
+}
+.gallery-container > div > img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.horizontal {
+	/*
+Won't work for this case. Pushes all the divs with this class to the first column starting creating unexpected empty spaces
+  grid-column: 1 / span 2; 
+*/
+	grid-column: span 2;
+}
+
+.vertical {
+	grid-row: span 2;
+}
+
+.big {
+	grid-row: span 2;
+	grid-column: span 2;
+}
+.with-before-bullet:before {
+	content: "-";
+	float: left;
+	margin-right: 8px;
 }
