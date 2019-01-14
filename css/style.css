@@ -3241,7 +3241,20 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .grid-item.feature-box-4 figure:hover img {transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transform: scale(1.09,1.09); -webkit-transform: scale(1.09,1.09); -moz-transform: scale(1.09,1.09); -ms-transform: scale(1.09,1.09); -o-transform: scale(1.09,1.09); }
 
 /* feature box style 5 */
-.feature-box-5 {padding-left:75px}
+.feature-box-5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.feature-box-5 img {
+    height: 56px;
+    width: auto;
+}
+.feature-content {
+    width: 100%;
+    text-align: center;
+}
 .feature-box-5 i {position: absolute; top: 0; left: 0}
 
 /* feature box style 6 */
