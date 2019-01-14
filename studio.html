@@ -112,10 +112,10 @@
                             <div class="col-md-6 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large" style="height: 100%;">
                                 <div class="display-table-cell vertical-align-middle">
                                     <!-- start page title -->
-                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">State-of-the-art acoustics designed by Munro Acoustics</h1>
+                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom change-color">State-of-the-art acoustics designed by Munro Acoustics</h1>
                                     <!-- end page title -->
                                     <!-- start sub title -->
-                                    <span class=" opacity6 alt-font">They have been commissioned by the likes of Abbey Road Studios,London, U2, Mark Knopfler and Coldplay.</span>
+                                    <span class=" opacity6 alt-font change-color">They have been commissioned by the likes of Abbey Road Studios,London, U2, Mark Knopfler and Coldplay.</span>
                                     <!-- end sub title -->
                                 </div>
                             </div>
@@ -137,10 +137,10 @@
                             <div class="col-md-6 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large" style="height: 100%;">
                                 <div class="display-table-cell vertical-align-middle">
                                     <!-- start page title -->
-                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">PMC Monitoring</h1>
+                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom change-color">PMC Monitoring</h1>
                                     <!-- end page title -->
                                     <!-- start sub title -->
-                                    <span class=" opacity6 alt-font">In a masterfully designed , close to perfect sounding room</span>
+                                    <span class=" opacity6 alt-font change-color">In a masterfully designed , close to perfect sounding room</span>
                                     <!-- end sub title -->
                                 </div>
                             </div>
@@ -162,10 +162,10 @@
                             <div class="col-md-6 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large" style="height: 100%;">
                                 <div class="display-table-cell vertical-align-middle">
                                     <!-- start page title -->
-                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">High-end analogue gear</h1>
+                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom change-color">High-end analogue gear</h1>
                                     <!-- end page title -->
                                     <!-- start sub title -->
-                                    <span class=" opacity6 alt-font">For a pristine, no compromise sound</span>
+                                    <span class=" opacity6 alt-font change-color">For a pristine, no compromise sound</span>
                                     <!-- end sub title -->
                                 </div>
                             </div>
@@ -187,10 +187,10 @@
                             <div class="col-md-6 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large" style="height: 100%;">
                                 <div class="display-table-cell vertical-align-middle">
                                     <!-- start page title -->
-                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">Choicest analogue preamps &amp; microphones</h1>
+                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom change-color">Choicest analogue preamps &amp; microphones</h1>
                                     <!-- end page title -->
                                     <!-- start sub title -->
-                                    <span class=" opacity6 alt-font">For recordings of the highest standards</span>
+                                    <span class=" opacity6 alt-font change-color">For recordings of the highest standards</span>
                                     <!-- end sub title -->
                                 </div>
                             </div>
@@ -212,10 +212,10 @@
                             <div class="col-md-6 col-sm-12 col-xs-12 extra-small-screen display-table page-title-large" style="height: 100%;">
                                 <div class="display-table-cell vertical-align-middle">
                                     <!-- start page title -->
-                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom">Great ambience &amp; a quiet neighbourhood</h1>
+                                    <h1 class=" alt-font font-weight-600 letter-spacing-minus-1 margin-10px-bottom change-color">Great ambience &amp; a quiet neighbourhood</h1>
                                     <!-- end page title -->
                                     <!-- start sub title -->
-                                    <span class=" opacity6 alt-font">For peace of mind during long tracking sessions</span>
+                                    <span class=" opacity6 alt-font change-color">For peace of mind during long tracking sessions</span>
                                     <!-- end sub title -->
                                 </div>
                             </div>
@@ -450,10 +450,15 @@
         <script type="text/javascript">
             if($(window).width() > 800) {
                 $(".slide__content").mouseover(function() {
-                    $(".slide__overlay").css("opacity", "1");
+                    $(".slide__overlay").css("opacity", "0.4");
+                    $(".slide__overlay-path").css("fill", "#000");
+                    $(".change-color").css("color", "#fff");
                 });
                 $(".slide__content").mouseleave(function() {
-                    $(".slide__overlay").css("opacity", "0.8");
+                    $(".slide__overlay").css("opacity", "1");
+                    $(".slide__overlay-path").css("fill", "#fff");
+                    $(".change-color").css("color", "#000");
+
                 })
             }
         </script>
