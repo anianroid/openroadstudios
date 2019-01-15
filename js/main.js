@@ -3179,7 +3179,8 @@ $(window).load(function() {
         dots: true,
         adaptiveHeight: true,
         arrows: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        autoplaySpeed: 2000
     });
     $(".slider-home").slick({
         slidesToShow: 1,
@@ -3188,7 +3189,7 @@ $(window).load(function() {
         arrows: false,
         focusOnSelect: true,
         autoplay: true,
-        autoplaySpeed: 200000
+        autoplaySpeed: 2000
     });
 });
 /* ===================================
