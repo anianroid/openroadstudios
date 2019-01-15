@@ -3180,6 +3180,7 @@ $(window).load(function() {
         adaptiveHeight: true,
         arrows: false,
         focusOnSelect: true,
+        autoplay: true,
         autoplaySpeed: 2000
     });
     $(".slider-home").slick({
