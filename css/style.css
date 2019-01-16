@@ -2250,7 +2250,7 @@ header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a{colo
 header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a,
 header nav.navbar.white-link .header-social-icon a,  nav.navbar.bootsnav.white-link .header-social-icon a,
 header nav.navbar.white-link .header-searchbar a,  nav.navbar.bootsnav.white-link .header-searchbar a,
-header nav.navbar.bootsnav ul.nav.white-link > li > a,  nav.navbar.white-link .heder-menu-button a {color: #d4d4d4;}
+header nav.navbar.bootsnav ul.nav.white-link > li > a,  nav.navbar.white-link .heder-menu-button a {color: #d4d4d4;font-size: 16px;}
 
 header.sticky nav.navbar-fixed-top.header-light-transparent.white-link .navbar-nav > li > a,
 header.sticky nav.navbar-fixed-top.header-light-transparent.white-link .header-searchbar a,
