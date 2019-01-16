@@ -286,12 +286,15 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	margin: 8px;
 	cursor: pointer;
 }
-
+.bx-viewport {
+	height: 608px !important;
+}
 @media (min-width: 700px) {
 }
 @media (min-width: 1000px) {
 	.studio-images-slider {
 		width: 60%;
+		max-height: 500px;
 	}
 	.studio-features {
 		width: 36%;
