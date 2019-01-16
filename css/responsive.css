@@ -2920,7 +2920,6 @@
     /* parallax */
     .parallax {background-position: center;}
     .studio-page-slider {
-        margin-top: 20%;
     }
 
     .portfolio-filter-tab-1 li {margin: 10px 20px;}
@@ -3090,8 +3089,8 @@
     }
     
     .slide__overlay-path {
-        fill: #ffffff;
-        opacity: 1;
+        fill: #000;
+        opacity: 0.6;
     }
 
     body { font-size: 12px; line-height: 20px}

@@ -74,7 +74,8 @@ svg:not(:root) {
 	transition: 0.4s all;
 }
 .slide__overlay-path {
-	fill: #ffffff;
+	fill: #000;
+	opacity: 0.4;
 }
 *:focus {
 	outline: none;
@@ -160,7 +161,7 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 	opacity: 1;
 }
 .studio-page-slider {
-	margin-top: 120px;
+	/* margin-top: 120px; */
 }
 .studio-image-slider-image-wrapper img {
 	margin: 0 auto;
@@ -196,6 +197,7 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 .change-color {
 	transition: 0.4s all;
+	color: #ffffff;
 }
 .gallery-container {
 	display: grid;

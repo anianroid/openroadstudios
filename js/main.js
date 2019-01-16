@@ -3186,7 +3186,7 @@ $(window).load(function() {
     $(".slider-home").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: false,
+        dots: true,
         arrows: false,
         focusOnSelect: true,
         autoplay: true,
