@@ -241,6 +241,62 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	float: left;
 	margin-right: 8px;
 }
+.studio-features-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	padding: 40px 8px;
+}
+.studio-images-slider,
+.studio-features {
+	width: 100%;
+}
+
+.studio-features {
+	background-color: #ffffff;
+	padding: 8px;
+	margin: 0 24px;
+}
+.studio-features-lists {
+	background-color: #ffffff;
+	padding: 0 8px;
+}
+.studio-features__header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 100%;
+}
+.studio-features__heading {
+	width: 100%;
+}
+.bx-wrapper img {
+	width: 100%;
+	height: auto;
+}
+.studio-features-controls {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	background: transparent;
+}
+.studio-features-controls > div {
+	margin: 8px;
+	cursor: pointer;
+}
+
+@media (min-width: 700px) {
+}
+@media (min-width: 1000px) {
+	.studio-images-slider {
+		width: 60%;
+	}
+	.studio-features {
+		width: 36%;
+	}
+}
 @media (max-width: 768px) {
 	header .logo .logo-dark.default,
 	header .logo .logo-light.default {
