@@ -201,9 +201,9 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 .gallery-container {
 	display: grid;
-	grid-gap: 1px;
-	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-	grid-auto-rows: 184px;
+	grid-gap: 4px;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
 	grid-auto-flow: dense;
 }
 
