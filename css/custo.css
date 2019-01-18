@@ -289,13 +289,7 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 .bx-viewport {
 	height: 608px !important;
 }
-.alter-bg-position {
-	background-position: 0px -72px !important;
-}
 @media (max-width: 700px) {
-	.alter-bg-position {
-		background-position: unset !important;
-	}
 }
 @media (min-width: 1000px) {
 	.studio-images-slider {
@@ -331,11 +325,5 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 		grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
 		grid-auto-rows: 104px;
 		grid-auto-flow: dense;
-	}
-}
-
-@media (min-width: 1800px) {
-	.alter-bg-position {
-		background-position: 0px -320px;
 	}
 }
