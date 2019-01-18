@@ -289,15 +289,39 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 .bx-viewport {
 	height: 608px !important;
 }
-@media (max-width: 700px) {
+.bg-size-control {
+	background-size: cover;
+	background-position: center;
+	min-height: unset;
+}
+.responsive-align {
+	margin-top: 2%;
+}
+@media (min-width: 700px) {
+	.bg-size-control {
+		background-size: cover;
+		background-position: center;
+		min-height: -webkit-fill-available;
+	}
+	.responsive-align {
+		margin-top: 8%;
+	}
 }
 @media (min-width: 1000px) {
+	.bg-size-control {
+		background-size: cover;
+		background-position: center;
+		min-height: -webkit-fill-available;
+	}
 	.studio-images-slider {
 		width: 60%;
 		max-height: 500px;
 	}
 	.studio-features {
 		width: 36%;
+	}
+	.responsive-align {
+		margin-top: 16%;
 	}
 }
 @media (max-width: 768px) {
