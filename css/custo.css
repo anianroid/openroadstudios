@@ -184,10 +184,6 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 .slick-prev {
 	left: 16px;
 }
-.slick-initialized .slick-slide {
-	display: block;
-	overflow: scroll;
-}
 . .social-icon-style-1 a.instagram,
 .social-icon-style-2 a.instagram,
 .social-icon-style-3 a.instagram,
@@ -359,5 +355,9 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	}
 	.horizontal {
 		grid-column: unset;
+	}
+	.slick-initialized .slick-slide {
+		display: block;
+		overflow: scroll;
 	}
 }
