@@ -170,16 +170,16 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 }
 .slick-next:before,
 .slick-prev:before {
-	font-size: 20px;
+	font-size: 32px;
 	line-height: 1;
 	opacity: 0.75;
-	color: #333;
+	color: #333333;
 }
 .slick-next {
-	right: 16px;
+	right: -16px;
 }
 .slick-prev {
-	left: 0;
+	left: 16px;
 }
 . .social-icon-style-1 a.instagram,
 .social-icon-style-2 a.instagram,
@@ -202,8 +202,8 @@ nav.navbar.white-link .heder-menu-button a.black:hover {
 .gallery-container {
 	display: grid;
 	grid-gap: 4px;
-	grid-template-columns: repeat(7, 1fr);
-	grid-template-rows: 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	grid-auto-rows: 1fr;
 	grid-auto-flow: dense;
 }
 
