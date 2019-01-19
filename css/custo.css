@@ -297,6 +297,27 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 .responsive-align {
 	margin-top: 2%;
 }
+.portfolio-grid .grid-item figure:hover img {
+	opacity: unset;
+	transform: unset;
+	-webkit-transform: unset;
+	-moz-transform: unset;
+	-ms-transform: unset;
+	-o-transform: unset;
+	transition: unset;
+	-webkit-transition: unset;
+	-moz-transition: unset;
+	-ms-transition: unset;
+	-o-transition: unset;
+	top: 0;
+}
+.portfolio-grid .grid-item figure:hover .portfolio-img {
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
 @media (min-width: 700px) {
 	.bg-size-control {
 		background-size: cover;
