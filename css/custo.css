@@ -289,9 +289,6 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	margin: 8px;
 	cursor: pointer;
 }
-.bx-viewport {
-	height: 608px !important;
-}
 .bg-size-control {
 	background-size: cover;
 	background-position: center;
@@ -307,7 +304,7 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 		min-height: -webkit-fill-available;
 	}
 	.responsive-align {
-		margin-top: 8%;
+		margin-top: 48%;
 	}
 }
 @media (min-width: 1000px) {
@@ -318,10 +315,10 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	}
 	.studio-images-slider {
 		width: 60%;
-		max-height: 500px;
+		max-height: unset;
 	}
 	.studio-features {
-		width: 36%;
+		width: 34%;
 	}
 	.responsive-align {
 		margin-top: 16%;
