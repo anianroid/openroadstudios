@@ -318,6 +318,9 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	-ms-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 }
+.bx-viewport {
+	max-height: 560px;
+}
 @media (min-width: 700px) {
 	.bg-size-control {
 		background-size: cover;
