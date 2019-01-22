@@ -349,7 +349,7 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 		width: 34%;
 	}
 	.responsive-align {
-		margin-top: 16%;
+		margin-top: 18%;
 	}
 }
 @media (max-width: 768px) {
