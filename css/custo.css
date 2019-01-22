@@ -387,3 +387,9 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 		overflow: scroll;
 	}
 }
+
+@media (min-width: 1441px) {
+	.bx-viewport {
+		min-height: 888px;
+	}
+}
