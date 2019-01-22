@@ -259,6 +259,10 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	background-color: #ffffff;
 	padding: 8px;
 	margin: 0 24px;
+	display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 .studio-features-lists {
 	background-color: #ffffff;
@@ -319,7 +323,7 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 	-o-transition: all 0.3s ease 0s;
 }
 .bx-viewport {
-	max-height: 560px;
+	max-height: 100%;
 }
 @media (min-width: 700px) {
 	.bg-size-control {
