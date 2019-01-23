@@ -506,6 +506,13 @@ Won't work for this case. Pushes all the divs with this class to the first colum
     .main-slider-sub-heading {
     	font-size: 18px;
     }
+
+header nav.navbar.white-link .navbar-nav>li>a.black, nav.navbar.bootsnav.white-link ul.nav>li>a.black, header nav.navbar.white-link .header-social-icon a.black, nav.navbar.bootsnav.white-link .header-social-icon a.black, header nav.navbar.white-link .header-searchbar a.black, nav.navbar.bootsnav.white-link .header-searchbar a.black, header nav.navbar.bootsnav ul.nav.white-link>li>a.black, nav.navbar.white-link .heder-menu-button a.black {
+    color: #fafafa;
+}
+header nav.navbar.white-link .navbar-nav>li.active>a.black, nav.navbar.bootsnav.white-link ul.nav>li.active>a.black, header nav.navbar.bootsnav ul.nav.white-link>li.active>a.black, header.header-appear nav.header-dark-transparent .navbar-nav>li.active>a.black, header.header-appear nav.header-dark .navbar-nav>li.active>a.black, header.sticky nav.header-dark .navbar-nav>li.active>a.black, header.sticky nav.header-dark-transparent .navbar-nav>li.active>a.black, header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav>li.active>a.black {
+	color: #ffffff;
+}
 }
 
 @media (min-width: 1441px) {
