@@ -3196,3 +3196,28 @@ $(window).load(function() {
 /* ===================================
  END Page Load
  ====================================== */
+
+
+ function renderShowcaseContent(flag) {
+    switch(flag) {
+        case 0: 
+            $("#sc-1").removeClass('col-md-6');
+            $("#sc-1").removeClass('col-sm-6');
+            $("#sc-1").addClass('col-md-12');
+            $("#sc-1").addClass('col-sm-12');
+            $("#sc-1").css("padding", "0 12%");
+            $("#sc-1-img").css("width", "50%");
+            $("#sc-2").hide();
+            $("#sc-render-1").fadeIn();
+        break;
+        default: 
+            $("#sc-2").removeClass('col-md-6');
+            $("#sc-2").removeClass('col-sm-6');
+            $("#sc-2").addClass('col-md-12');
+            $("#sc-2").addClass('col-sm-12');
+            $("#sc-2-img").css("width", "50%");
+            $("#sc-2").css("padding", "0 12%");
+            $("#sc-1").hide();
+            $("#sc-render-2").fadeIn();
+    }
+ }

@@ -119,86 +119,106 @@ header a.logo img.logo-dark {
     margin-top: 10%;
 }
 
-header nav.navbar.white-link .navbar-nav>li.active>a.black,
-nav.navbar.bootsnav.white-link ul.nav>li.active>a.black,
-header nav.navbar.bootsnav ul.nav.white-link>li.active>a.black,
-header.header-appear nav.header-dark-transparent .navbar-nav>li.active>a.black,
-header.header-appear nav.header-dark .navbar-nav>li.active>a.black,
-header.sticky nav.header-dark .navbar-nav>li.active>a.black,
-header.sticky nav.header-dark-transparent .navbar-nav>li.active>a.black,
-header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav>li.active>a.black {
+header nav.navbar.white-link .navbar-nav > li.active > a.black,
+nav.navbar.bootsnav.white-link ul.nav > li.active > a.black,
+header nav.navbar.bootsnav ul.nav.white-link > li.active > a.black,
+header.header-appear
+    nav.header-dark-transparent
+    .navbar-nav
+    > li.active
+    > a.black,
+header.header-appear nav.header-dark .navbar-nav > li.active > a.black,
+header.sticky nav.header-dark .navbar-nav > li.active > a.black,
+header.sticky nav.header-dark-transparent .navbar-nav > li.active > a.black,
+header.sticky
+    nav.navbar.bootsnav.header-dark-transparent.white-link
+    .navbar-nav
+    > li.active
+    > a.black {
     color: #000;
 }
 
-header nav.navbar.white-link .navbar-nav>li>a.black,
-nav.navbar.bootsnav.white-link ul.nav>li>a.black,
+header nav.navbar.white-link .navbar-nav > li > a.black,
+nav.navbar.bootsnav.white-link ul.nav > li > a.black,
 header nav.navbar.white-link .header-social-icon a.black,
 nav.navbar.bootsnav.white-link .header-social-icon a.black,
 header nav.navbar.white-link .header-searchbar a.black,
 nav.navbar.bootsnav.white-link .header-searchbar a.black,
-header nav.navbar.bootsnav ul.nav.white-link>li>a.black,
+header nav.navbar.bootsnav ul.nav.white-link > li > a.black,
 nav.navbar.white-link .heder-menu-button a.black {
     color: #333;
 }
 
-header nav.navbar.white-link .navbar-nav>li>a.black:hover,
-nav.navbar.bootsnav.white-link ul.nav>li>a.black:hover,
+header nav.navbar.white-link .navbar-nav > li > a.black:hover,
+nav.navbar.bootsnav.white-link ul.nav > li > a.black:hover,
 header nav.navbar.white-link .header-social-icon a.black:hover,
 nav.navbar.bootsnav.white-link .header-social-icon a.black:hover,
 header nav.navbar.white-link .header-searchbar a.black:hover,
 nav.navbar.bootsnav.white-link .header-searchbar a.black:hover,
-header nav.navbar.bootsnav ul.nav.white-link>li>a.black:hover,
+header nav.navbar.bootsnav ul.nav.white-link > li > a.black:hover,
 nav.navbar.white-link .heder-menu-button a.black:hover {
     color: #ccc;
 }
 
-header nav.navbar.white-link .navbar-nav>li.active>a.white,
-nav.navbar.bootsnav.white-link ul.nav>li.active>a.white,
-header nav.navbar.bootsnav ul.nav.white-link>li.active>a.white,
-header.header-appear nav.header-dark-transparent .navbar-nav>li.active>a.white,
-header.header-appear nav.header-dark .navbar-nav>li.active>a.white,
-header.sticky nav.header-dark .navbar-nav>li.active>a.white,
-header.sticky nav.header-dark-transparent .navbar-nav>li.active>a.white,
-header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav>li.active>a.white {
+header nav.navbar.white-link .navbar-nav > li.active > a.white,
+nav.navbar.bootsnav.white-link ul.nav > li.active > a.white,
+header nav.navbar.bootsnav ul.nav.white-link > li.active > a.white,
+header.header-appear
+    nav.header-dark-transparent
+    .navbar-nav
+    > li.active
+    > a.white,
+header.header-appear nav.header-dark .navbar-nav > li.active > a.white,
+header.sticky nav.header-dark .navbar-nav > li.active > a.white,
+header.sticky nav.header-dark-transparent .navbar-nav > li.active > a.white,
+header.sticky
+    nav.navbar.bootsnav.header-dark-transparent.white-link
+    .navbar-nav
+    > li.active
+    > a.white {
     color: #fff;
 }
 
-header nav.navbar.white-link .navbar-nav>li>a.white,
-nav.navbar.bootsnav.white-link ul.nav>li>a.white,
+header nav.navbar.white-link .navbar-nav > li > a.white,
+nav.navbar.bootsnav.white-link ul.nav > li > a.white,
 header nav.navbar.white-link .header-social-icon a.white,
 nav.navbar.bootsnav.white-link .header-social-icon a.white,
 header nav.navbar.white-link .header-searchbar a.white,
 nav.navbar.bootsnav.white-link .header-searchbar a.white,
-header nav.navbar.bootsnav ul.nav.white-link>li>a.white,
+header nav.navbar.bootsnav ul.nav.white-link > li > a.white,
 nav.navbar.white-link .heder-menu-button a.white {
     color: #fafafa;
 }
 
-header nav.navbar.white-link .navbar-nav>li>a.white:hover,
-nav.navbar.bootsnav.white-link ul.nav>li>a.white:hover,
+header nav.navbar.white-link .navbar-nav > li > a.white:hover,
+nav.navbar.bootsnav.white-link ul.nav > li > a.white:hover,
 header nav.navbar.white-link .header-social-icon a.white:hover,
 nav.navbar.bootsnav.white-link .header-social-icon a.white:hover,
 header nav.navbar.white-link .header-searchbar a.white:hover,
 nav.navbar.bootsnav.white-link .header-searchbar a.white:hover,
-header nav.navbar.bootsnav ul.nav.white-link>li>a.white:hover,
+header nav.navbar.bootsnav ul.nav.white-link > li > a.white:hover,
 nav.navbar.white-link .heder-menu-button a.white:hover {
     color: #fafafa;
 }
 
-header nav.navbar.white-link .navbar-nav>li.active>a,
-nav.navbar.bootsnav.white-link ul.nav>li.active>a,
-header nav.navbar.bootsnav ul.nav.white-link>li.active>a,
-header.header-appear nav.header-dark-transparent .navbar-nav>li.active>a,
-header.header-appear nav.header-dark .navbar-nav>li.active>a,
-header.sticky nav.header-dark .navbar-nav>li.active>a,
-header.sticky nav.header-dark-transparent .navbar-nav>li.active>a,
-header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav>li.active>a {
+header nav.navbar.white-link .navbar-nav > li.active > a,
+nav.navbar.bootsnav.white-link ul.nav > li.active > a,
+header nav.navbar.bootsnav ul.nav.white-link > li.active > a,
+header.header-appear nav.header-dark-transparent .navbar-nav > li.active > a,
+header.header-appear nav.header-dark .navbar-nav > li.active > a,
+header.sticky nav.header-dark .navbar-nav > li.active > a,
+header.sticky nav.header-dark-transparent .navbar-nav > li.active > a,
+header.sticky
+    nav.navbar.bootsnav.header-dark-transparent.white-link
+    .navbar-nav
+    > li.active
+    > a {
     color: #ffffff;
 }
 
 .low-pad {
     padding: 40px 0;
-    margin-top: 8%;
+    margin-top: 10%;
     background: transparent;
 }
 
@@ -221,7 +241,8 @@ header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav
     font-family: "Montserrat", sans-serif;
 }
 
-#about {}
+#about {
+}
 
 .slide__overlay {
     opacity: 1;
@@ -286,7 +307,7 @@ header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav
     grid-auto-flow: dense;
 }
 
-.gallery-container>div {
+.gallery-container > div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +316,7 @@ header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav
     background: #f2f2f2;
 }
 
-.gallery-container>div>img {
+.gallery-container > div > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -352,7 +373,7 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 }
 
 .studio-features-list {
-		padding-left: 24px;
+    padding-left: 24px;
 }
 
 .studio-features__header {
@@ -381,7 +402,7 @@ Won't work for this case. Pushes all the divs with this class to the first colum
     width: 100%;
 }
 
-.studio-features-controls>div {
+.studio-features-controls > div {
     margin: 8px;
     cursor: pointer;
 }
@@ -423,10 +444,43 @@ Won't work for this case. Pushes all the divs with this class to the first colum
     max-height: 560px;
 }
 .main-slider-sub-heading {
-	  font-size: 24px;
+    font-size: 24px;
     margin-top: 24px;
 }
+.artwork-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    cursor: pointer;
+}
 
+.artwork-container > img {
+    width: 80%;
+    height: auto;
+}
+.sc-render {
+    display: none;
+}
+.showcase-social {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0 8%;
+    justify-content: center;
+    align-items: center;
+}
+.showcase-social > div {
+    margin: 16px;
+    font-size: 24px;
+}
+.fa-spotify {
+    color: #1ed761;
+}
+.fa-youtube {
+    color: red;
+}
 @media (min-width: 700px) {
     .bg-size-control {
         background-size: cover;
@@ -459,12 +513,11 @@ Won't work for this case. Pushes all the divs with this class to the first colum
         margin-top: 18%;
     }
     .studio-features-container {
-	    align-items: center;
-		}
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
-
     header .logo .logo-dark.default,
     header .logo .logo-light.default {
         max-height: 64px;
@@ -472,7 +525,10 @@ Won't work for this case. Pushes all the divs with this class to the first colum
 
     .navbar-default.white-link.no-bg .navbar-toggle .icon-bar,
     header.sticky .navbar-default.header-dark .navbar-toggle .icon-bar,
-    header.sticky .navbar-default.header-dark-transparent .navbar-toggle .icon-bar {
+    header.sticky
+        .navbar-default.header-dark-transparent
+        .navbar-toggle
+        .icon-bar {
         background: #696969;
     }
 
@@ -501,18 +557,40 @@ Won't work for this case. Pushes all the divs with this class to the first colum
         overflow: scroll;
     }
     .studio-features-list li {
-    	font-size: 14px;
+        font-size: 14px;
     }
     .main-slider-sub-heading {
-    	font-size: 18px;
+        font-size: 18px;
     }
 
-header nav.navbar.white-link .navbar-nav>li>a.black, nav.navbar.bootsnav.white-link ul.nav>li>a.black, header nav.navbar.white-link .header-social-icon a.black, nav.navbar.bootsnav.white-link .header-social-icon a.black, header nav.navbar.white-link .header-searchbar a.black, nav.navbar.bootsnav.white-link .header-searchbar a.black, header nav.navbar.bootsnav ul.nav.white-link>li>a.black, nav.navbar.white-link .heder-menu-button a.black {
-    color: #fafafa;
-}
-header nav.navbar.white-link .navbar-nav>li.active>a.black, nav.navbar.bootsnav.white-link ul.nav>li.active>a.black, header nav.navbar.bootsnav ul.nav.white-link>li.active>a.black, header.header-appear nav.header-dark-transparent .navbar-nav>li.active>a.black, header.header-appear nav.header-dark .navbar-nav>li.active>a.black, header.sticky nav.header-dark .navbar-nav>li.active>a.black, header.sticky nav.header-dark-transparent .navbar-nav>li.active>a.black, header.sticky nav.navbar.bootsnav.header-dark-transparent.white-link .navbar-nav>li.active>a.black {
-	color: #ffffff;
-}
+    header nav.navbar.white-link .navbar-nav > li > a.black,
+    nav.navbar.bootsnav.white-link ul.nav > li > a.black,
+    header nav.navbar.white-link .header-social-icon a.black,
+    nav.navbar.bootsnav.white-link .header-social-icon a.black,
+    header nav.navbar.white-link .header-searchbar a.black,
+    nav.navbar.bootsnav.white-link .header-searchbar a.black,
+    header nav.navbar.bootsnav ul.nav.white-link > li > a.black,
+    nav.navbar.white-link .heder-menu-button a.black {
+        color: #fafafa;
+    }
+    header nav.navbar.white-link .navbar-nav > li.active > a.black,
+    nav.navbar.bootsnav.white-link ul.nav > li.active > a.black,
+    header nav.navbar.bootsnav ul.nav.white-link > li.active > a.black,
+    header.header-appear
+        nav.header-dark-transparent
+        .navbar-nav
+        > li.active
+        > a.black,
+    header.header-appear nav.header-dark .navbar-nav > li.active > a.black,
+    header.sticky nav.header-dark .navbar-nav > li.active > a.black,
+    header.sticky nav.header-dark-transparent .navbar-nav > li.active > a.black,
+    header.sticky
+        nav.navbar.bootsnav.header-dark-transparent.white-link
+        .navbar-nav
+        > li.active
+        > a.black {
+        color: #ffffff;
+    }
 }
 
 @media (min-width: 1441px) {
