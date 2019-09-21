@@ -326,6 +326,11 @@
         <script type="text/javascript">
             $(document).ready(function() {
                 renderFeatures(1);
+                document.addEventListener("touchstart", function(e) {
+    console.log(e.defaultPrevented);  // will be false
+    e.preventDefault();   // does nothing since the listener is passive
+    console.log(e.defaultPrevented);  // still false
+}, Modernizr.passiveeventlisteners ? {passive: true} : false);
             });
             var bx = $('.bx-slider').bxSlider();
             function renderFeatures(choice) {
